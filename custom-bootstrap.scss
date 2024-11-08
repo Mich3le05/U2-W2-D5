@@ -1,0 +1,15 @@
+// Modifico i colori principali
+@import './scss/functions';
+@import './scss/variables';
+
+$Netflix-primary: #141414;
+$Netflix-secondary: #cc0718;
+
+$new-theme-colors: (
+  'Netflix-primary': $Netflix-primary,
+  'Netflix-secondary': $Netflix-secondary,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import './scss/bootstrap.scss';
