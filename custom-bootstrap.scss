@@ -13,3 +13,11 @@ $new-theme-colors: (
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
 
 @import './scss/bootstrap.scss';
+
+main img {
+  transition: transform 0.3s ease; /* Definisce una transizione */
+}
+
+main img:hover {
+  transform: scale(1.1); /* Ingrandisce leggermente l'immagine */
+}

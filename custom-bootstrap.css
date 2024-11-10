@@ -12152,4 +12152,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+main img {
+  transition: transform 0.3s ease; /* Definisce una transizione */
+}
+
+main img:hover {
+  transform: scale(1.1); /* Ingrandisce leggermente l'immagine */
 }/*# sourceMappingURL=custom-bootstrap.css.map */
